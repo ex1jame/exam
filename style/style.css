@@ -1,0 +1,142 @@
+@import "font.css";
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    color: inherit;
+}
+
+/*Conf*/
+.container {
+    width: 1020px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Conf*/
+/*Cats section*/
+.cats {
+    padding: 88px 0 32px;
+}
+
+.cats .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.cats__card {
+    max-width: 380px;
+    max-height: 521px;
+    background: #F3F3F3;
+}
+.cats__img{
+    width: 380px;
+    height: 264px;
+    position: relative;
+    background: url("../images/cat-1.png");
+
+}
+.cats_discount{
+    position: absolute;
+    top: 34px;
+    left: 7px;
+    text-align: center;
+    padding-top: 9px;
+    width: 78px;
+    height: 39px;
+    background: #E62D2D;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.cats__heart{
+    position: absolute;
+    top: 36.7px;
+    right: 32px;
+}
+.cats__info{
+    padding: 29px 33px 29px 29px;
+}
+.cats__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+
+}
+.blue_line{
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 4px;
+    height: 26px;
+    background: #6EBBD3;
+}
+
+.cats__desc{
+    position: relative;
+    margin: 0 20px 0 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.cats__desc_sm-bold{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.cats__desc_sm-width{
+    width: 89px;
+}
+.cats__desc_sm-width:before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -17px;
+    width: 4px;
+    height: 26px;
+    background: #6EBBD3;
+}
+.cats__btn{
+    width: 380px;
+    height: 65px;
+    background: #6EBBD3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.cats__head{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
+}
+.cats__center{
+    margin-top: 95px;
+    text-align: center;
+}
+/*Cats section*/
