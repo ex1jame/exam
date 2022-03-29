@@ -52,7 +52,18 @@ button{
     height: 264px;
     position: relative;
     background: url("../images/cat-1.png");
-
+}
+.cats__img-second{
+    width: 380px;
+    height: 264px;
+    position: relative;
+    background: url("../images/cat-2.png");
+}
+.cats__img-third{
+    width: 380px;
+    height: 264px;
+    position: relative;
+    background: url("../images/cat-3.png");
 }
 .cats_discount{
     position: absolute;
@@ -82,6 +93,7 @@ button{
     font-size: 24px;
     line-height: 29px;
     color: #000000;
+    margin-bottom: 23px;
 
 
 }
@@ -129,11 +141,15 @@ button{
     line-height: 20px;
     color: #FFFFFF;
 }
+.cats__btn_sm-black{
+    background: black;
+}
 .cats__head{
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
     color: #000000;
+    margin-bottom: 23px;
 }
 .cats__center{
     margin-top: 95px;
